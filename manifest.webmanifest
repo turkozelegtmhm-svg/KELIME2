@@ -1,0 +1,24 @@
+{
+  "name": "YÖKDİL Sosyal Kelime",
+  "short_name": "YÖKDİL",
+  "description": "YÖKDİL Sosyal için kelime çalışma uygulaması: aralıklı tekrar, çoktan seçmeli test, eş ve zıt anlamlı çalışması.",
+  "lang": "tr",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F2F5F3",
+  "theme_color": "#0B6E63",
+  "categories": ["education"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Günlük tekrar", "short_name": "Tekrar", "url": "./#anki", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Hızlı tekrar", "short_name": "Hızlı", "url": "./#hatirlat", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Test çalışması", "short_name": "Test", "url": "./#test", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
